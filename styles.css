@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ui-input-container {
+  background-color: rgb(245, 236, 236);
+  padding: 3rem;
+  border-radius: 4px;
+  width: 50% ;
+  margin: 0 auto;
+
+}
+
+.ui-form-input-container {
+  position: relative;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  display: block;
+
+}
+
+
+.ui-input-container h2 {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.ui-form-input {
+ padding: 13px 15px;
+ border-radius: 8px;
+ border: 2px solid #1a73a8;
+ outline: none;
+ width: 100%;
+}
+
+.form-input-label {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  color: #1a73a8;
+  font-size: 0.85rem;
+  padding-right: 0.33rem;
+  padding-left: 0.33rem;
+  background: #fff;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+
+textarea {
+  min-height: 6em;
+  max-height: 50vh;
+  width: 100%;
+}
